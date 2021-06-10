@@ -13,4 +13,8 @@ void epd_clear(char v);
 
 void epd_draw(const char *p);
 
+void epd_set_cursor(int xs, int ys);
+
+void epd_turnon();
+
 #endif

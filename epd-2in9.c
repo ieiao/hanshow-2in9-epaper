@@ -104,7 +104,6 @@ void epd_clear(char v)
             epd_send_data(v);
         }
     }
-    epd_turnon();
 }
 
 void epd_draw(const char *p)
@@ -121,5 +120,4 @@ void epd_draw(const char *p)
             epd_send_data(*p++);
         }
     }
-    epd_turnon();
 }
